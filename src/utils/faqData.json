@@ -1,0 +1,54 @@
+[
+  {
+    "title": "O que é o DEVS Pai d'égua?",
+    "description": "É um programa de aceleração para estudantes apoiado por Empresas de tecnologia paraenses e pela Faculdade de Computação da UFPA, focando na capacitação de potenciais talentos para atuar na área de desenvolvimento de software. Com base em desafios reais queremos estimular a capacitação e seleção de novos talentos."
+  },
+  {
+    "title": "Quem pode participar?",
+    "description": "Qualquer aluno/aluna regularmente matriculado em um curso de bacharelado da UFPA (não exclusivo da FACOMP). É necessário ter noções de programação e orientação a objetos. O participante não deve estar no último período do curso."
+  },
+  {
+    "title": "O que preciso para ser aprovado no DEVS Pai d'égua?",
+    "description": "O projeto DEVS Pai d'égua terá duração de quatro meses. Pretende-se iniciar 4 de Outubro de 2021."
+  },
+  {
+    "title": "Qual a duração do DEVS Pai d'égua?",
+    "description": "O projeto DEVS Pai d'égua terá duração de quatro meses. Pretende-se iniciar 4 de Outubro de 2021."
+  },
+  {
+    "title": "Terei que pagar algo pra participar?",
+    "description": "Não há taxa de inscrição. O participante selecionado, no entanto, poderá receber uma bolsa no valor de R$ XXXX mensal."
+  },
+  {
+    "title": "O que preciso para ser aprovado no DEVS Pai d'égua?",
+    "description": "Os inscritos receberão um desafio que deve ser resolvido no período de XXX semanas. As soluções deverão ser apresentadas para uma banca de professores e profissionais das empresas parceiras. Os alunos/alunas com melhores soluções e apresentações serão selecionados."
+  },
+  {
+    "title": "Onde acontecerá o DEVS Pai d'égua?",
+    "description": "O programa será totalmente remoto."
+  },
+  {
+    "title": "A vaga de emprego é garantida ao ganhador?",
+    "description": "Não. A empresa se reserva o direito de contratar somente os candidatos que ela julgar aptos para as vagas abertas no momento."
+  },
+  {
+    "title": "O que será aprendido no DEVS Pai d'égua?",
+    "description": "Acreditamos que uma das melhores formas de aprender algo novo é praticando. Assim, os participantes do programa irão desenvolver vários desafios durante o programa, em um ambiente colaborativo e com acesso a conteúdos tech, qualidade de software e também sobre habilidades comportamentais importantes em um time de desenvolvimento."
+  },
+  {
+    "title": "O programa é individual ou terei atividades em grupo?",
+    "description": "O projeto deverá ser feito e apresentado individualmente. No entanto, os participantes estão livres para consultar outros colegas ao longo da execução do projeto."
+  },
+  {
+    "title": "Qual seria o salário proposto ao ganhador?",
+    "description": "O salário será negociado com a empresa interessada em contratar o participante."
+  },
+  {
+    "title": "Se for selecionado, qual será a carga horária esperada por semana?",
+    "description": "Não pretendemos contabilizar a carga horária dos participantes do DEVS Pai d'égua, mas as entregas serão monitoradas. No entanto, é esperada uma disponibilidade de cerca de 4 diárias (no mínimo)."
+  },
+  {
+    "title": "Se for selecionado, poderei continuar com o meu estágio durante a participação no DEVS Pai d'égua?",
+    "description": "Dado a carga horária semanal de 20 horas para participação no DEVS Pai d'égua, não é esperado que os participantes mantenham outro vínculo durante a execução do projeto."
+  }
+]
