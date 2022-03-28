@@ -847,27 +847,6 @@ const IndexPage = () => {
               width="100%"
               position="relative"
             >
-              <Box
-                position="absolute"
-                top={{
-                  base: '44',
-                  md: '32'
-                }}
-                display="flex"
-                zIndex={1}
-                width="100%"
-                opacity="0.4"
-              >
-                <Box position="relative" w={600} h={300} maxW={600} maxH={300}>
-                  <Image
-                    src="/assets/images/rocket-fundo.png"
-                    layout="fill"
-                    objectFit="contain"
-                    quality={100}
-                    alt="Foguete fundo"
-                  />
-                </Box>
-              </Box>
               <Stack spacing={4} zIndex={2}>
                 <Fade bottom>
                   <Text
@@ -962,7 +941,7 @@ const IndexPage = () => {
               >
                 <Image
                   src="/assets/images/logo.png"
-                  width={174}
+                  width={140}
                   height={71}
                   alt="Logo image"
                   objectFit="contain"
@@ -1068,8 +1047,8 @@ const IndexPage = () => {
                   >
                     <Image
                       src="/assets/images/dev-logo.svg"
-                      width={175}
-                      height={72}
+                      width={150}
+                      height={60}
                       quality={100}
                       alt="Site Developer logo"
                       objectFit="contain"
