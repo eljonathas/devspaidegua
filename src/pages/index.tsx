@@ -945,13 +945,7 @@ const IndexPage = () => {
                 <SponsorBox
                   imageUrl="/assets/images/apoiadores/pct-guama.png"
                   imageWidth={240}
-                  imageHeight={60}
-                  imageAlt="idopter Logo"
-                />
-                <SponsorBox
-                  imageUrl="/assets/images/apoiadores/idopter-logo.svg"
-                  imageWidth={159}
-                  imageHeight={48}
+                  imageHeight={80}
                   imageAlt="idopter Logo"
                 />
               </Flex>
