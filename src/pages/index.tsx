@@ -776,6 +776,12 @@ const IndexPage = () => {
                           imageHeight={53}
                           imageAlt="Equilibrium Logo"
                         />
+                        <SponsorBox
+                          imageUrl="/assets/images/apoiadores/csconsoft.png"
+                          imageWidth={190}
+                          imageHeight={53}
+                          imageAlt="Csconsoft Logo"
+                        />
                       </Fade>
                     </Flex>
                   </GridItem>
@@ -826,6 +832,12 @@ const IndexPage = () => {
                         />
                         <SponsorBox
                           imageUrl="/assets/images/apoiadores/techlead.png"
+                          imageWidth={192}
+                          imageHeight={40}
+                          imageAlt="TechLead Logo"
+                        />
+                        <SponsorBox
+                          imageUrl="/assets/images/apoiadores/w3.png"
                           imageWidth={192}
                           imageHeight={40}
                           imageAlt="TechLead Logo"
@@ -1012,7 +1024,7 @@ const IndexPage = () => {
                 />
                 <Stack spacing={0} fontSize="sm">
                   <Text color="gray.400">
-                    Programa Devs Pai D&apos;Égua 2021
+                    Programa Devs Pai D&apos;Égua 2022
                   </Text>
                   <Text color="gray.400">Todos os direitos reservados</Text>
                 </Stack>
