@@ -591,7 +591,7 @@ const IndexPage = () => {
               <Grid
                 gridTemplateColumns={{
                   base: 'repeat(1, 1fr)',
-                  md: 'repeat(4, minmax(0, 1fr))'
+                  md: 'repeat(3, minmax(0, 1fr))'
                 }}
                 gap={{
                   base: '4',
@@ -614,10 +614,10 @@ const IndexPage = () => {
                         teamDescription="Realiza pesquisas na linha de testes de software, qualidade e evolução de software. Atuou com incentivos de apoio à inovação para as empresas do Brasil (2016-2020) e com pesquisas na ZUP Innovation."
                       />
                       <TeamBox
-                        teamName="Rodrigo Quites"
-                        teamPhotoUrl="/assets/images/equipe/rodrigo_quites.jpeg"
-                        teamRole="Doutor pela UFRGS (2002)"
-                        teamDescription="Atua em Arquitetura de Software, Melhoria de Processos, e Gestão da Inovação. Atualmente, é o gestor da Fundação Guamá, responsável pelo PCT Guamá."
+                        teamName="Vinicius Abreu"
+                        teamPhotoUrl="/assets/images/equipe/vini.png"
+                        teamRole="Doutor pela UFMG (2014)"
+                        teamDescription="Atua na área da Bioinformática, com experiência em desenvolvimento de software e análise de dados ômico e biológicos."
                       />
                     </Fade>
                   </Flex>
@@ -638,33 +638,40 @@ const IndexPage = () => {
                         teamDescription="Estuda boas práticas de desenvolvimento de software."
                       />
                       <TeamBox
-                        teamName="Vinicius Abreu"
-                        teamPhotoUrl="/assets/images/equipe/vini.png"
-                        teamRole="Doutor pela UFMG (2014)"
-                        teamDescription="Atua na área da Bioinformática, com experiência em desenvolvimento de software e análise de dados ômico e biológicos."
+                        teamName="Cleidson R. Botelho de Souza"
+                        teamPhotoUrl="/assets/images/equipe/cleidson.jpg"
+                        teamRole="Doutor pela University Of California, Irvine, U. C., Estados Unidos.(2005)"
+                        teamDescription="Atuando principalmente na área de sistemas colaborativos, engenharia de software empírica e engenharia de software colaborativa."
                       />
                     </Fade>
                   </Flex>
                 </GridItem>
                 <GridItem>
-                  <Fade delay={150}>
-                    <TeamBox
-                      teamName="Sandro Bezerra"
-                      teamPhotoUrl="/assets/images/equipe/sandro.png"
-                      teamRole="Doutor pela UFPE (2007)"
-                      teamDescription="Atua na área de Engenharia de Software, principalmente em melhoria do processos de software, qualidade de software, gerência de projetos, ambiente de desenvolvimento de software e sistemas de informação."
-                    />
-                  </Fade>
+                  <Flex
+                    direction="column"
+                    gridGap={{
+                      base: '4',
+                      md: '6'
+                    }}
+                  >
+                    <Fade delay={150}>
+                      <TeamBox
+                        teamName="Rodrigo Quites"
+                        teamPhotoUrl="/assets/images/equipe/rodrigo_quites.jpeg"
+                        teamRole="Doutor pela UFRGS (2002)"
+                        teamDescription="Atua em Arquitetura de Software, Melhoria de Processos, e Gestão da Inovação. Atualmente, é o gestor da Fundação Guamá, responsável pelo PCT Guamá."
+                      />
+                      <TeamBox
+                        teamName="Sandro Bezerra"
+                        teamPhotoUrl="/assets/images/equipe/sandro.png"
+                        teamRole="Doutor pela UFPE (2007)"
+                        teamDescription="Atua na área de Engenharia de Software, principalmente em melhoria do processos de software, qualidade de software, gerência de projetos, ambiente de desenvolvimento de software e sistemas de informação."
+                      />
+                    </Fade>
+                  </Flex>
                 </GridItem>
                 <GridItem>
-                  <Fade delay={200}>
-                    <TeamBox
-                      teamName="Cleidson R. Botelho de Souza"
-                      teamPhotoUrl="/assets/images/equipe/cleidson.jpg"
-                      teamRole="Doutor pela University Of California, Irvine, U. C., Estados Unidos.(2005)"
-                      teamDescription="Atuando principalmente na área de sistemas colaborativos, engenharia de software empírica e engenharia de software colaborativa."
-                    />
-                  </Fade>
+                  <Fade delay={200}></Fade>
                 </GridItem>
               </Grid>
             </Flex>
@@ -713,7 +720,7 @@ const IndexPage = () => {
                   <Flex direction="column" gridGap="4">
                     <QuoteBox
                       quoteAuthor="Marcelo Rocha de Sá"
-                      quoteContent={`"“Não sabendo que era impossível, foi lá e fez” é uma frase de Jean Cocteau que me inspira. Quando diferentes gerações de profissionais trabalham juntas, frequentemente costuma ser profícua para a inovação. A diversidade cultural, de características,  de trajetórias de vida, viabilizam perspectivas diferentes para  enfrentamento de desafios, identificação de problemas realmente relevantes e soluções inovadoras. O DEVS Pai d’egua traz esse conceito como um fundamento, em que professores, executivos e profissionais da indústria de software, alunos e outros atores buscam juntos conhecimento relevante para a evolução do ecossistema de software e tecnologia paraense."`}
+                      quoteContent={`"'Não sabendo que era impossível, foi lá e fez' é uma frase de Jean Cocteau que me inspira. Quando diferentes gerações de profissionais trabalham juntas, frequentemente costuma ser profícua para a inovação. A diversidade cultural, de características,  de trajetórias de vida, viabilizam perspectivas diferentes para  enfrentamento de desafios, identificação de problemas realmente relevantes e soluções inovadoras. O DEVS Pai d’egua traz esse conceito como um fundamento, em que professores, executivos e profissionais da indústria de software, alunos e outros atores buscam juntos conhecimento relevante para a evolução do ecossistema de software e tecnologia paraense."`}
                       quoteAuthorImage="/assets/images/apoiadores/marcelo_jambu.jpg"
                       quoteRole="JambuLabs Health Tech Studio"
                     />
@@ -817,6 +824,12 @@ const IndexPage = () => {
                           imageHeight={92}
                           imageAlt="Solved Logo"
                         />
+                        <SponsorBox
+                          imageUrl="/assets/images/apoiadores/techlead.png"
+                          imageWidth={192}
+                          imageHeight={40}
+                          imageAlt="TechLead Logo"
+                        />
                       </Fade>
                     </Flex>
                   </GridItem>
@@ -859,10 +872,40 @@ const IndexPage = () => {
           <Container maxW="container.xl" centerContent>
             <Flex
               direction="column"
+              gridGap="4"
+              width="100%"
+              position="relative"
+              mb="24"
+            >
+              <Text fontSize="3xl" textAlign="center" fontWeight="600">
+                Apoio
+              </Text>
+              <Flex alignItems="center" justifyContent="center" gridGap="4">
+                <SponsorBox
+                  imageUrl="/assets/images/apoiadores/ufpa-logo.png"
+                  imageWidth={240}
+                  imageHeight={80}
+                  imageAlt="Ufpa Logo"
+                />
+                <SponsorBox
+                  imageUrl="/assets/images/apoiadores/pct-guama.png"
+                  imageWidth={240}
+                  imageHeight={80}
+                  imageAlt="PCT Guamá Logo"
+                />
+                <SponsorBox
+                  imageUrl="/assets/images/apoiadores/paratic.png"
+                  imageWidth={240}
+                  imageHeight={80}
+                  imageAlt="Paratic Logo"
+                />
+              </Flex>
+            </Flex>
+            <Flex
+              direction="column"
               gridGap="12"
               width="100%"
               position="relative"
-              mb="16"
             >
               <Stack spacing={4} zIndex={2}>
                 <Fade bottom>
@@ -930,24 +973,6 @@ const IndexPage = () => {
                     Inscreva-se agora
                   </Button>
                 </Fade>
-              </Flex>
-            </Flex>
-            <Flex
-              direction="column"
-              gridGap="4"
-              width="100%"
-              position="relative"
-            >
-              <Text fontSize="3xl" textAlign="center" fontWeight="600">
-                Apoio
-              </Text>
-              <Flex alignItems="center" justifyContent="center" gridGap="4">
-                <SponsorBox
-                  imageUrl="/assets/images/apoiadores/pct-guama.png"
-                  imageWidth={240}
-                  imageHeight={80}
-                  imageAlt="idopter Logo"
-                />
               </Flex>
             </Flex>
           </Container>
