@@ -1065,7 +1065,7 @@ const IndexPage = () => {
                       bgGradient: 'linear(to-br, purple.600, blue.600)'
                     }}
                     as="a"
-                    href="https://forms.gle/2qGhbKHdheS4cmpSA"
+                    href="https://www.instagram.com/devspaidegua/"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -1087,7 +1087,7 @@ const IndexPage = () => {
                   Entre em contato:
                 </Text>
                 <Text color="gray.400" fontWeight="medium">
-                  inscrição@devspaidegua.com
+                  devspaidegua@gmail.com
                 </Text>
               </Flex>
             </GridItem>
