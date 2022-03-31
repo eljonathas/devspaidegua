@@ -765,12 +765,6 @@ const IndexPage = () => {
                     >
                       <Fade>
                         <SponsorBox
-                          imageUrl="/assets/images/apoiadores/flex-logo.png"
-                          imageWidth={117}
-                          imageHeight={140}
-                          imageAlt="Flex Informática Logo"
-                        />
-                        <SponsorBox
                           imageUrl="/assets/images/apoiadores/equilibrium-logo.png"
                           imageWidth={188}
                           imageHeight={53}
@@ -794,12 +788,6 @@ const IndexPage = () => {
                       }}
                     >
                       <Fade delay={100}>
-                        <SponsorBox
-                          imageUrl="/assets/images/apoiadores/idopter-logo.svg"
-                          imageWidth={159}
-                          imageHeight={48}
-                          imageAlt="idopter Logo"
-                        />
                         <SponsorBox
                           imageUrl="/assets/images/apoiadores/jambu-logo.png"
                           imageWidth={164}
@@ -825,12 +813,6 @@ const IndexPage = () => {
                     >
                       <Fade delay={150}>
                         <SponsorBox
-                          imageUrl="/assets/images/apoiadores/solved-logo.png"
-                          imageWidth={192}
-                          imageHeight={92}
-                          imageAlt="Solved Logo"
-                        />
-                        <SponsorBox
                           imageUrl="/assets/images/apoiadores/techlead.png"
                           imageWidth={192}
                           imageHeight={40}
@@ -838,9 +820,15 @@ const IndexPage = () => {
                         />
                         <SponsorBox
                           imageUrl="/assets/images/apoiadores/w3.png"
-                          imageWidth={192}
-                          imageHeight={40}
+                          imageWidth={240}
+                          imageHeight={60}
                           imageAlt="TechLead Logo"
+                        />
+                        <SponsorBox
+                          imageUrl="/assets/images/apoiadores/bredi-logo.svg"
+                          imageWidth={142}
+                          imageHeight={53}
+                          imageAlt="Bredi Logo"
                         />
                       </Fade>
                     </Flex>
@@ -865,12 +853,6 @@ const IndexPage = () => {
                           imageWidth={181}
                           imageHeight={68}
                           imageAlt="Easygestor Logo"
-                        />
-                        <SponsorBox
-                          imageUrl="/assets/images/apoiadores/bredi-logo.svg"
-                          imageWidth={142}
-                          imageHeight={53}
-                          imageAlt="Bredi Logo"
                         />
                       </Fade>
                     </Flex>
