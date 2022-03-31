@@ -155,9 +155,13 @@ const IndexPage = () => {
               </List>
 
               <Button
+                as="a"
+                href="https://forms.gle/2qGhbKHdheS4cmpSA"
+                target="_blank"
+                rel="noopener noreferrer"
                 display={{
                   base: 'none',
-                  md: 'initial'
+                  md: 'flex'
                 }}
               >
                 <Text>Começar agora</Text>
@@ -229,6 +233,10 @@ const IndexPage = () => {
                   _active={{
                     bgColor: 'gray.600'
                   }}
+                  as="a"
+                  href="https://forms.gle/2qGhbKHdheS4cmpSA"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   Inscreva-se agora
                 </Button>
@@ -488,7 +496,7 @@ const IndexPage = () => {
                   <Fade>
                     <StepsRow
                       stepTitle="1. INSCRIÇÃO"
-                      stepDate="17.08 a 28.08"
+                      stepDate="04.04 a 10.04"
                       stepDescription="Inscreva-se para poder ser avaliado pela nossa equipe e participar do processo seletivo"
                     />
                   </Fade>
@@ -497,7 +505,7 @@ const IndexPage = () => {
                   <Fade delay={100}>
                     <StepsRow
                       stepTitle="2. DESAFIO"
-                      stepDate="17.08 a 28.08"
+                      stepDate="25.04 a 29.04"
                       stepDescription="Os desafios inspirados nas demanadas das empresas (e tecnologias adotadas) serão disponibilizadas aos alunos"
                     />
                   </Fade>
@@ -506,7 +514,7 @@ const IndexPage = () => {
                   <Fade delay={150}>
                     <StepsRow
                       stepTitle="3. ACELERAÇÃO"
-                      stepDate="17.08 a 28.08"
+                      stepDate="29.04 a 19.08"
                       stepDescription="Ao longo de 3 a 4 meses os alunos irão desenvolver os desafios com base nas especificações. Reunições semanais com professores e colaboradores."
                     />
                   </Fade>
@@ -515,7 +523,7 @@ const IndexPage = () => {
                   <Fade delay={200}>
                     <StepsRow
                       stepTitle="4. DEMODAY"
-                      stepDate="17.08 a 28.08"
+                      stepDate="22.08 a 26.08"
                       stepDescription="Apresentação aberta para todas as empresas participantes do programa de aceleração."
                     />
                   </Fade>
@@ -524,7 +532,7 @@ const IndexPage = () => {
                   <Fade delay={250}>
                     <StepsRow
                       stepTitle="5. CONTRATAÇÃO"
-                      stepDate="17.08 a 28.08"
+                      stepDate="A partir de 29.08"
                       stepDescription="Em caso de interesse das empresas parceiras, após o julgamento do Demoday, os melhores alunos poderão ser contratados."
                     />
                   </Fade>
@@ -591,14 +599,28 @@ const IndexPage = () => {
                 }}
               >
                 <GridItem>
-                  <Fade>
-                    <TeamBox
-                      teamName="Victor Hugo Santiago"
-                      teamPhotoUrl="/assets/images/equipe/victor.png"
-                      teamRole="Doutor pelo ICMC/USP (2019)"
-                      teamDescription="Realiza pesquisas na linha de testes de software, qualidade e evolução de software. Atuou com incentivos de apoio à inovação para as empresas do Brasil (2016-2020) e com pesquisas na ZUP Innovation."
-                    />
-                  </Fade>
+                  <Flex
+                    direction="column"
+                    gridGap={{
+                      base: '4',
+                      md: '6'
+                    }}
+                  >
+                    <Fade>
+                      <TeamBox
+                        teamName="Victor Hugo Santiago"
+                        teamPhotoUrl="/assets/images/equipe/victor.png"
+                        teamRole="Doutor pelo ICMC/USP (2019)"
+                        teamDescription="Realiza pesquisas na linha de testes de software, qualidade e evolução de software. Atuou com incentivos de apoio à inovação para as empresas do Brasil (2016-2020) e com pesquisas na ZUP Innovation."
+                      />
+                      <TeamBox
+                        teamName="Rodrigo Quites"
+                        teamPhotoUrl="/assets/images/equipe/rodrigo_quites.jpeg"
+                        teamRole="Doutor pela UFRGS (2002)"
+                        teamDescription="Atua em Arquitetura de Software, Melhoria de Processos, e Gestão da Inovação. Atualmente, é o gestor da Fundação Guamá, responsável pelo PCT Guamá."
+                      />
+                    </Fade>
+                  </Flex>
                 </GridItem>
                 <GridItem>
                   <Flex
@@ -683,17 +705,17 @@ const IndexPage = () => {
                       quoteAuthor="Victor Hugo Santiago"
                       quoteContent={`"Queremos construir junto com os participantes, mentores e empresários paraenses um novo ecossistema de crescimento. Para isso, todos os conteúdos gerados para o programa unem fundamentos e prática para que os participantes sejam capazes de evoluir em seu aprendizado e ingressar no mercado mais preparados. Feedbacks contínuos, um ambiente de colaboração e a aproximação com profissionais da região podem contribuir muito para o sucesso do DEVS Pai d'égua na formação de uma nova geração de desenvolvedores de software."`}
                       quoteAuthorImage="/assets/images/equipe/victor.png"
-                      quoteRole="Professor na UFPA e Coordenador Geral"
+                      quoteRole="Professor na UFPA e Coordenador"
                     />
                   </Flex>
                 </GridItem>
                 <GridItem>
                   <Flex direction="column" gridGap="4">
                     <QuoteBox
-                      quoteAuthor="Victor Hugo Santiago"
-                      quoteContent={`"Queremos construir junto com os participantes, mentores e empresários paraenses um novo ecossistema de crescimento. Para isso, todos os conteúdos gerados para o programa unem fundamentos e prática para que os participantes sejam capazes de evoluir em seu aprendizado e ingressar no mercado mais preparados. Feedbacks contínuos, um ambiente de colaboração e a aproximação com profissionais da região podem contribuir muito para o sucesso do DEVS Pai d'égua na formação de uma nova geração de desenvolvedores de software."`}
-                      quoteAuthorImage="/assets/images/equipe/victor.png"
-                      quoteRole="Professor na UFPA e Coordenador Geral"
+                      quoteAuthor="Marcelo Rocha de Sá"
+                      quoteContent={`"“Não sabendo que era impossível, foi lá e fez” é uma frase de Jean Cocteau que me inspira. Quando diferentes gerações de profissionais trabalham juntas, frequentemente costuma ser profícua para a inovação. A diversidade cultural, de características,  de trajetórias de vida, viabilizam perspectivas diferentes para  enfrentamento de desafios, identificação de problemas realmente relevantes e soluções inovadoras. O DEVS Pai d’egua traz esse conceito como um fundamento, em que professores, executivos e profissionais da indústria de software, alunos e outros atores buscam juntos conhecimento relevante para a evolução do ecossistema de software e tecnologia paraense."`}
+                      quoteAuthorImage="/assets/images/apoiadores/marcelo_jambu.jpg"
+                      quoteRole="JambuLabs Health Tech Studio"
                     />
                   </Flex>
                 </GridItem>
@@ -790,12 +812,6 @@ const IndexPage = () => {
                     >
                       <Fade delay={150}>
                         <SponsorBox
-                          imageUrl="/assets/images/apoiadores/ufpa-logo.png"
-                          imageWidth={169}
-                          imageHeight={133}
-                          imageAlt="UFPA Logo"
-                        />
-                        <SponsorBox
                           imageUrl="/assets/images/apoiadores/solved-logo.png"
                           imageWidth={192}
                           imageHeight={92}
@@ -846,6 +862,7 @@ const IndexPage = () => {
               gridGap="12"
               width="100%"
               position="relative"
+              mb="16"
             >
               <Stack spacing={4} zIndex={2}>
                 <Fade bottom>
@@ -905,10 +922,38 @@ const IndexPage = () => {
                     _active={{
                       bgColor: 'linear(to-br, purple.600, blue.600)'
                     }}
+                    as="a"
+                    href="https://forms.gle/2qGhbKHdheS4cmpSA"
+                    target="_blank"
+                    rel="noopener noreferrer"
                   >
                     Inscreva-se agora
                   </Button>
                 </Fade>
+              </Flex>
+            </Flex>
+            <Flex
+              direction="column"
+              gridGap="4"
+              width="100%"
+              position="relative"
+            >
+              <Text fontSize="3xl" textAlign="center" fontWeight="600">
+                Apoio
+              </Text>
+              <Flex alignItems="center" justifyContent="center" gridGap="4">
+                <SponsorBox
+                  imageUrl="/assets/images/apoiadores/pct-guama.png"
+                  imageWidth={240}
+                  imageHeight={60}
+                  imageAlt="idopter Logo"
+                />
+                <SponsorBox
+                  imageUrl="/assets/images/apoiadores/idopter-logo.svg"
+                  imageWidth={159}
+                  imageHeight={48}
+                  imageAlt="idopter Logo"
+                />
               </Flex>
             </Flex>
           </Container>
@@ -1000,6 +1045,10 @@ const IndexPage = () => {
                     _hover={{
                       bgGradient: 'linear(to-br, purple.600, blue.600)'
                     }}
+                    as="a"
+                    href="https://forms.gle/2qGhbKHdheS4cmpSA"
+                    target="_blank"
+                    rel="noopener noreferrer"
                   >
                     <Icon as={FaInstagram} />
                   </Box>

@@ -5,23 +5,19 @@
   },
   {
     "title": "Quem pode participar?",
-    "description": "Qualquer aluno/aluna regularmente matriculado em um curso de bacharelado da UFPA (não exclusivo da FACOMP). É necessário ter noções de programação e orientação a objetos. O participante não deve estar no último período do curso."
+    "description": "Alunos e alunas a partir do terceiro semestre e que estejam matriculados em um dos cursos de computação da UFPA (Sistema de Informação, Ciência da Computação e Engenharia da Computação) poderão se inscrever no programa. É necessário ter noções de programação e orientação a objetos."
   },
   {
     "title": "O que preciso para ser aprovado no DEVS Pai d'égua?",
-    "description": "O projeto DEVS Pai d'égua terá duração de quatro meses. Pretende-se iniciar 4 de Outubro de 2021."
+    "description": "O objetivo não é chegar no final com uma nota em função do rendimento dos participantes. No entanto, indicativos sobre produtividade e aspectos comportamentais serão monitorados de forma contínua para facilitar possíveis contratações no final do programa. A metodologia e todas as etapas serão detalhadas aos participantes."
   },
   {
     "title": "Qual a duração do DEVS Pai d'égua?",
-    "description": "O projeto DEVS Pai d'égua terá duração de quatro meses. Pretende-se iniciar 4 de Outubro de 2021."
+    "description": "O DEVS Pai d'égua terá duração de quatro meses. Pretende-se iniciar na última semana de abril de 2022."
   },
   {
     "title": "Terei que pagar algo pra participar?",
-    "description": "Não há taxa de inscrição. O participante selecionado, no entanto, poderá receber uma bolsa no valor de R$ XXXX mensal."
-  },
-  {
-    "title": "O que preciso para ser aprovado no DEVS Pai d'égua?",
-    "description": "Os inscritos receberão um desafio que deve ser resolvido no período de XXX semanas. As soluções deverão ser apresentadas para uma banca de professores e profissionais das empresas parceiras. Os alunos/alunas com melhores soluções e apresentações serão selecionados."
+    "description": "Não há taxa de inscrição. O participante selecionado, no entanto, poderá receber uma bolsa no valor aproximado de R$ 1.000,00 mensal durante o programa."
   },
   {
     "title": "Onde acontecerá o DEVS Pai d'égua?",
@@ -37,7 +33,7 @@
   },
   {
     "title": "O programa é individual ou terei atividades em grupo?",
-    "description": "O projeto deverá ser feito e apresentado individualmente. No entanto, os participantes estão livres para consultar outros colegas ao longo da execução do projeto."
+    "description": "Segure e emoção! Uma abordagem bem diferente dos modelos convencionais será adotada. Os participantes devem programar bastante sem deixar de simular situações reais em equipes de desenvolvimento de software."
   },
   {
     "title": "Qual seria o salário proposto ao ganhador?",
@@ -45,7 +41,7 @@
   },
   {
     "title": "Se for selecionado, qual será a carga horária esperada por semana?",
-    "description": "Não pretendemos contabilizar a carga horária dos participantes do DEVS Pai d'égua, mas as entregas serão monitoradas. No entanto, é esperada uma disponibilidade de cerca de 4 diárias (no mínimo)."
+    "description": "Não pretendemos contabilizar a carga horária dos participantes do DEVS Pai d'égua, mas as entregas serão monitoradas. No entanto, é esperada uma disponibilidade de cerca de 4 horas diárias (no mínimo)."
   },
   {
     "title": "Se for selecionado, poderei continuar com o meu estágio durante a participação no DEVS Pai d'égua?",
