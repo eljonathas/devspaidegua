@@ -496,7 +496,7 @@ const IndexPage = () => {
                   <Fade>
                     <StepsRow
                       stepTitle="1. INSCRIÇÃO"
-                      stepDate="04.04 a 10.04"
+                      stepDate="Até 10.04"
                       stepDescription="Inscreva-se para poder ser avaliado pela nossa equipe e participar do processo seletivo"
                     />
                   </Fade>

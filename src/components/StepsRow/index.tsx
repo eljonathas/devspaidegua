@@ -40,7 +40,7 @@ export const StepsRow = ({
             </Text>
           </Box>
 
-          <Text fontSize="sm" color="gray.400">
+          <Text fontSize="md" color="gray.400" fontWeight="500">
             {stepDate}
           </Text>
         </Flex>
