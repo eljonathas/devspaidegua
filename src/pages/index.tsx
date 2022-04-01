@@ -506,7 +506,7 @@ const IndexPage = () => {
                     <StepsRow
                       stepTitle="2. DESAFIO"
                       stepDate="25.04 a 29.04"
-                      stepDescription="Os desafios inspirados nas demanadas das empresas (e tecnologias adotadas) serão disponibilizadas aos alunos"
+                      stepDescription="Soluções para um contexto específico (a ser divulgado) serão propostas pelos participantes. Após avaliação, um ou mais projetos deverão ser desenvolvidos adotando uma stack já definida."
                     />
                   </Fade>
                 </GridItem>
@@ -515,7 +515,7 @@ const IndexPage = () => {
                     <StepsRow
                       stepTitle="3. ACELERAÇÃO"
                       stepDate="29.04 a 19.08"
-                      stepDescription="Ao longo de 3 a 4 meses os alunos irão desenvolver os desafios com base nas especificações. Reunições semanais com professores e colaboradores."
+                      stepDescription="Ao longo de 4 meses os alunos irão desenvolver as funcionalidades de um projeto de forma incremental. Um fórum para compartilhamento de dúvidas e troca de conhecimento será adotado para estimular a colaboração. Reuniões semanais mais direcionadas com professores e mentores são esperadas para feedbacks e assim, superar as dificuldades ao longo do desenvolvimento."
                     />
                   </Fade>
                 </GridItem>
