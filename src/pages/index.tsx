@@ -874,7 +874,15 @@ const IndexPage = () => {
               <Text fontSize="3xl" textAlign="center" fontWeight="600">
                 Apoio
               </Text>
-              <Flex alignItems="center" justifyContent="center" gridGap="4">
+              <Flex
+                alignItems="center"
+                justifyContent="center"
+                gridGap="4"
+                direction={{
+                  base: 'column',
+                  md: 'row'
+                }}
+              >
                 <SponsorBox
                   imageUrl="/assets/images/apoiadores/ufpa-logo.png"
                   imageWidth={240}
