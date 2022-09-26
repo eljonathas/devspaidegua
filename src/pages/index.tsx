@@ -505,7 +505,7 @@ const IndexPage = () => {
                   <Fade delay={100}>
                     <StepsRow
                       stepTitle="2. DESAFIO"
-                      stepDate="25.04 a 29.04"
+                      stepDate="Até 20.05"
                       stepDescription="Soluções para um contexto específico (a ser divulgado) serão propostas pelos participantes. Após avaliação, um ou mais projetos deverão ser desenvolvidos adotando uma stack já definida."
                     />
                   </Fade>
@@ -514,7 +514,7 @@ const IndexPage = () => {
                   <Fade delay={150}>
                     <StepsRow
                       stepTitle="3. ACELERAÇÃO"
-                      stepDate="29.04 a 19.08"
+                      stepDate="27.06.22 a 14.10.22"
                       stepDescription="Ao longo de 4 meses os alunos irão desenvolver as funcionalidades de um projeto de forma incremental. Um fórum para compartilhamento de dúvidas e troca de conhecimento será adotado para estimular a colaboração. Reuniões semanais mais direcionadas com professores e mentores são esperadas para feedbacks e assim, superar as dificuldades ao longo do desenvolvimento."
                     />
                   </Fade>
@@ -523,7 +523,7 @@ const IndexPage = () => {
                   <Fade delay={200}>
                     <StepsRow
                       stepTitle="4. DEMODAY"
-                      stepDate="22.08 a 26.08"
+                      stepDate="Entre 24 e 31 de outubro"
                       stepDescription="Apresentação aberta para todas as empresas participantes do programa de aceleração."
                     />
                   </Fade>
@@ -532,7 +532,7 @@ const IndexPage = () => {
                   <Fade delay={250}>
                     <StepsRow
                       stepTitle="5. CONTRATAÇÃO"
-                      stepDate="A partir de 29.08"
+                      stepDate="A partir de 31 de outubro"
                       stepDescription="Em caso de interesse das empresas parceiras, após o julgamento do Demoday, os melhores alunos poderão ser contratados."
                     />
                   </Fade>
