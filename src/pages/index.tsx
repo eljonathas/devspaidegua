@@ -887,6 +887,12 @@ const IndexPage = () => {
                 }}
               >
                 <SponsorBox
+                  imageUrl="/assets/images/apoiadores/alura-logo.png"
+                  imageWidth={240}
+                  imageHeight={80}
+                  imageAlt="Alura Logo"
+                />
+                <SponsorBox
                   imageUrl="/assets/images/apoiadores/ufpa-logo.png"
                   imageWidth={240}
                   imageHeight={80}
@@ -903,12 +909,6 @@ const IndexPage = () => {
                   imageWidth={240}
                   imageHeight={80}
                   imageAlt="Paratic Logo"
-                />
-                <SponsorBox
-                  imageUrl="/assets/images/apoiadores/alura-logo.png"
-                  imageWidth={240}
-                  imageHeight={80}
-                  imageAlt="Alura Logo"
                 />
               </Flex>
             </Flex>
