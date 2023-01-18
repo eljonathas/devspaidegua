@@ -51,6 +51,9 @@ const IndexPage = () => {
           bg="url(/assets/images/fundo.jpg) bottom"
           height="100%"
           width="100%"
+          sx={{
+            backgroundSize: 'cover'
+          }}
         />
 
         <Container maxW="container.xl" centerContent zIndex={2}>
@@ -901,6 +904,12 @@ const IndexPage = () => {
                   imageHeight={80}
                   imageAlt="Paratic Logo"
                 />
+                <SponsorBox
+                  imageUrl="/assets/images/apoiadores/alura-logo.png"
+                  imageWidth={240}
+                  imageHeight={80}
+                  imageAlt="Alura Logo"
+                />
               </Flex>
             </Flex>
             <Flex
@@ -1117,7 +1126,7 @@ const IndexPage = () => {
                   >
                     <Image
                       src="/assets/images/dev-logo.svg"
-                      width={150}
+                      width={120}
                       height={60}
                       quality={100}
                       alt="Site Developer logo"
